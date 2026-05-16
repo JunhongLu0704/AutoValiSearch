@@ -1,0 +1,52 @@
+{
+  "stage": "Stage I configuration search",
+  "trial_unit": "one config evaluated over 4 splits x 2 seeds",
+  "parameters": {
+    "lr": [
+      0.0005,
+      0.001,
+      0.002,
+      0.005,
+      0.0075,
+      0.01,
+      0.015,
+      0.02
+    ],
+    "lambdap": [
+      0.5,
+      1.0,
+      2.0,
+      4.0,
+      8.0,
+      16.0,
+      32.0,
+      64.0
+    ],
+    "epochp": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "num_f": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10
+    ]
+  },
+  "shared_anchor": {
+    "lr": 0.01,
+    "lambdap": 1.0,
+    "epochp": 5,
+    "num_f": 3
+  }
+}

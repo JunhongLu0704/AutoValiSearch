@@ -1,0 +1,12 @@
+{
+  "default_backend": "openai_compatible",
+  "backends": {
+    "openai_compatible": {
+      "base_url": "${AUTOVALISEARCH_LLM_BASE_URL}",
+      "api_key_env": "AUTOVALISEARCH_LLM_API_KEY",
+      "model": "${AUTOVALISEARCH_LLM_MODEL}",
+      "timeout_sec": 180,
+      "max_retries": 1
+    }
+  }
+}

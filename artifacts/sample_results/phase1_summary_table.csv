@@ -1,0 +1,7 @@
+dataset,method,best_mean_test_acc,trial_count,failed_trial_count,best_trial_id,llm_proposal_count,repair_proposal_count,fallback_proposal_count
+PACS,llm_broad,77.22605,24,0,llm_002,19,3,1
+PACS,botorch_broad,76.810425,24,0,botorch_000,0,0,0
+PACS,tpe_broad,76.902488,24,0,tpe_000,0,0,0
+VLCS,llm_broad,67.851638,24,0,llm_000,14,6,3
+VLCS,botorch_broad,67.478475,24,0,botorch_000,0,0,0
+VLCS,tpe_broad,67.7214,24,0,tpe_000,0,0,0

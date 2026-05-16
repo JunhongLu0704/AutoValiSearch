@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+wandb/
+outputs/
+logs/
+datasets/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+.DS_Store
+.pytest_cache/
+.venv/
+venv/
